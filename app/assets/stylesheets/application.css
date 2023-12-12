@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+
+ .cards {
+  display: flex;
+  grid-gap: 10px;
+}
+
+.letter-box {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+.play-again {
+  margin-top: 10px;
+}
+
+.container {
+  margin-left: 10px;
+}
